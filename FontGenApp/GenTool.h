@@ -21,7 +21,7 @@ public:
 	nsGenTool();
 	virtual ~nsGenTool();
 
-	bool					Generate( const char *ttfFileName, uint texSize, uint fontWidth, uint fontHeight, IProgressCallbak *cb = 0 );
+	bool					Generate( const char *ttfFileName, uint texSize, uint fontWidth, uint fontHeight, const char *chars, int charCount, IProgressCallbak *cb = 0 );
 	
 	bool					Save( const char *fileName );
 	HBITMAP					GetTexture();
@@ -29,6 +29,7 @@ public:
 private:
 	struct glyphPos_t
 	{
+		bool		valid;
 		glyphDesc_t	g;
 		int			posX, posY;
 	};

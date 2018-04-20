@@ -5,10 +5,6 @@
 	Name="00_nsLib"
 	ProjectGUID="{00DF93A8-5275-406D-8127-3ABC28A39239}"
 	RootNamespace="00_nsLib"
-	SccProjectName="SAK"
-	SccAuxPath="SAK"
-	SccLocalPath="SAK"
-	SccProvider="SAK"
 	>
 	<Platforms>
 		<Platform

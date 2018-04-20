@@ -12,16 +12,6 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FontGenApp", "FontGenApp\Fo
 	EndProjectSection
 EndProject
 Global
-	GlobalSection(SourceCodeControl) = preSolution
-		SccNumberOfProjects = 4
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = nsLib\\00_nsLib.vcproj
-		SccLocalPath1 = nsLib
-		SccProjectUniqueName2 = Core\\01_Core.vcproj
-		SccLocalPath2 = Core
-		SccProjectUniqueName3 = FontGenApp\\FontGenApp.vcproj
-		SccLocalPath3 = FontGenApp
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
 		Release|Win32 = Release|Win32

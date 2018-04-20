@@ -30,7 +30,7 @@ nsGenTool::~nsGenTool()
 //---------------------------------------------------------
 // nsGenTool::Generate:
 //---------------------------------------------------------
-bool nsGenTool::Generate( const char *ttfFileName, uint texSize, uint fontWidth, uint fontHeight,  IProgressCallbak *cb )
+bool nsGenTool::Generate( const char *ttfFileName, uint texSize, uint fontWidth, uint fontHeight, const char *chars, int charCount, IProgressCallbak *cb )
 {
 	if ( !m_fontLoader.BindFont( ttfFileName ) ) return false;
 
@@ -43,8 +43,9 @@ bool nsGenTool::Generate( const char *ttfFileName, uint texSize, uint fontWidth,
 
 	memset( m_glyphs, 0, sizeof(glyphPos_t) * 256 );
 
-	for ( int ch = 0; ch < 256; ++ch )
+	for ( int i = 0; i < charCount; ++i )
 	{
+		char	ch = chars[i];
 		const glyphDesc_t	*g = m_fontLoader.GetGlyphDesc( ch );
 		if ( g )
 		{
@@ -60,11 +61,12 @@ bool nsGenTool::Generate( const char *ttfFileName, uint texSize, uint fontWidth,
 			MarkPos( pos[0], pos[1], g->width + 1, g->height + 1, 1 );
 
 			if ( cb )
-				cb->SetPercent( int(ch /255.0f * 100.0f) );
+				cb->SetPercent( int(i / float(charCount) * 100.0f) );
 
 			m_glyphs[ch].posX = pos[0] + 1;
 			m_glyphs[ch].posY = pos[1] + 1;
 			m_glyphs[ch].g = *g;
+			m_glyphs[ch].valid = true;
 		}
 	}
 
@@ -105,16 +107,19 @@ bool nsGenTool::Save( const char *fileName )
 
 	for ( int i = 0; i < 256; ++i )
 	{
-		saver.BlockBegin( "$char" );
+		if ( m_glyphs[i].valid )
+		{
+			saver.BlockBegin( "$char" );
 
-		saver.Printf( "$code %i // %c", i, (char)i );
-		saver.Printf( "$tex_id 0" );
-		saver.Printf( "$coord %i %i", m_glyphs[i].posX, m_glyphs[i].posY );
-		saver.Printf( "$size %i %i", m_glyphs[i].g.width, m_glyphs[i].g.height );
-		saver.Printf( "$offs %i %i", m_glyphs[i].g.offsX, m_glyphs[i].g.offsY );
-		saver.Printf( "$step %i", m_glyphs[i].g.step );
+			saver.Printf( "$code %i // %c", i, (char)i );
+			saver.Printf( "$tex_id 0" );
+			saver.Printf( "$coord %i %i", m_glyphs[i].posX, m_glyphs[i].posY );
+			saver.Printf( "$size %i %i", m_glyphs[i].g.width, m_glyphs[i].g.height );
+			saver.Printf( "$offs %i %i", m_glyphs[i].g.offsX, m_glyphs[i].g.offsY );
+			saver.Printf( "$step %i", m_glyphs[i].g.step );
 
-		saver.BlockEnd();
+			saver.BlockEnd();
+		}
 	}
 
 	saver.BlockEnd();

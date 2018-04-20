@@ -5,10 +5,6 @@
 	Name="01_Core"
 	ProjectGUID="{565F32FF-D855-4D14-99D8-3EA94FC1A7D8}"
 	RootNamespace="01_Core"
-	SccProjectName="SAK"
-	SccAuxPath="SAK"
-	SccLocalPath="SAK"
-	SccProvider="SAK"
 	>
 	<Platforms>
 		<Platform

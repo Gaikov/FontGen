@@ -1,0 +1,1295 @@
+//Generate by FontGen
+//Copyright (c) 2005-2008, Gaikov Roman. All rights reserved.
+
+$version 1.5
+
+$textures
+{
+	$tex "menu.png"
+}
+
+$chars_data
+{
+	$char
+	{
+		$code 0 // 
+		$tex_id 0
+		$coord 1 1
+		$size 11 13
+		$offs 2 13
+		$step 15
+	}
+
+	$char
+	{
+		$code 1 // 
+		$tex_id 0
+		$coord 13 1
+		$size 11 13
+		$offs 2 13
+		$step 15
+	}
+
+	$char
+	{
+		$code 2 // 
+		$tex_id 0
+		$coord 25 1
+		$size 11 13
+		$offs 2 13
+		$step 15
+	}
+
+	$char
+	{
+		$code 3 // 
+		$tex_id 0
+		$coord 37 1
+		$size 11 13
+		$offs 2 13
+		$step 15
+	}
+
+	$char
+	{
+		$code 4 // 
+		$tex_id 0
+		$coord 49 1
+		$size 11 13
+		$offs 2 13
+		$step 15
+	}
+
+	$char
+	{
+		$code 5 // 
+		$tex_id 0
+		$coord 61 1
+		$size 11 13
+		$offs 2 13
+		$step 15
+	}
+
+	$char
+	{
+		$code 6 // 
+		$tex_id 0
+		$coord 73 1
+		$size 11 13
+		$offs 2 13
+		$step 15
+	}
+
+	$char
+	{
+		$code 7 // 
+		$tex_id 0
+		$coord 85 1
+		$size 11 13
+		$offs 2 13
+		$step 15
+	}
+
+	$char
+	{
+		$code 8 // 
+		$tex_id 0
+		$coord 97 1
+		$size 11 13
+		$offs 2 13
+		$step 15
+	}
+
+	$char
+	{
+		$code 9 // 	
+		$tex_id 0
+		$coord 109 1
+		$size 11 13
+		$offs 2 13
+		$step 15
+	}
+
+	$char
+	{
+		$code 10 // 
+
+		$tex_id 0
+		$coord 121 1
+		$size 11 13
+		$offs 2 13
+		$step 15
+	}
+
+	$char
+	{
+		$code 11 // 
+		$tex_id 0
+		$coord 133 1
+		$size 11 13
+		$offs 2 13
+		$step 15
+	}
+
+	$char
+	{
+		$code 12 // 
+		$tex_id 0
+		$coord 145 1
+		$size 11 13
+		$offs 2 13
+		$step 15
+	}
+
+	$char
+	{
+		$code 13 // 
+		$tex_id 0
+		$coord 157 1
+		$size 11 13
+		$offs 2 13
+		$step 15
+	}
+
+	$char
+	{
+		$code 14 // 
+		$tex_id 0
+		$coord 169 1
+		$size 11 13
+		$offs 2 13
+		$step 15
+	}
+
+	$char
+	{
+		$code 15 // 
+		$tex_id 0
+		$coord 181 1
+		$size 11 13
+		$offs 2 13
+		$step 15
+	}
+
+	$char
+	{
+		$code 16 // 
+		$tex_id 0
+		$coord 193 1
+		$size 11 13
+		$offs 2 13
+		$step 15
+	}
+
+	$char
+	{
+		$code 17 // 
+		$tex_id 0
+		$coord 205 1
+		$size 11 13
+		$offs 2 13
+		$step 15
+	}
+
+	$char
+	{
+		$code 18 // 
+		$tex_id 0
+		$coord 217 1
+		$size 11 13
+		$offs 2 13
+		$step 15
+	}
+
+	$char
+	{
+		$code 19 // 
+		$tex_id 0
+		$coord 229 1
+		$size 11 13
+		$offs 2 13
+		$step 15
+	}
+
+	$char
+	{
+		$code 20 // 
+		$tex_id 0
+		$coord 241 1
+		$size 11 13
+		$offs 2 13
+		$step 15
+	}
+
+	$char
+	{
+		$code 21 // 
+		$tex_id 0
+		$coord 1 15
+		$size 11 13
+		$offs 2 13
+		$step 15
+	}
+
+	$char
+	{
+		$code 22 // 
+		$tex_id 0
+		$coord 13 15
+		$size 11 13
+		$offs 2 13
+		$step 15
+	}
+
+	$char
+	{
+		$code 23 // 
+		$tex_id 0
+		$coord 25 15
+		$size 11 13
+		$offs 2 13
+		$step 15
+	}
+
+	$char
+	{
+		$code 24 // 
+		$tex_id 0
+		$coord 37 15
+		$size 11 13
+		$offs 2 13
+		$step 15
+	}
+
+	$char
+	{
+		$code 25 // 
+		$tex_id 0
+		$coord 49 15
+		$size 11 13
+		$offs 2 13
+		$step 15
+	}
+
+	$char
+	{
+		$code 26 // 
+		$tex_id 0
+		$coord 61 15
+		$size 11 13
+		$offs 2 13
+		$step 15
+	}
+
+	$char
+	{
+		$code 27 // 
+		$tex_id 0
+		$coord 73 15
+		$size 11 13
+		$offs 2 13
+		$step 15
+	}
+
+	$char
+	{
+		$code 28 // 
+		$tex_id 0
+		$coord 85 15
+		$size 11 13
+		$offs 2 13
+		$step 15
+	}
+
+	$char
+	{
+		$code 29 // 
+		$tex_id 0
+		$coord 97 15
+		$size 11 13
+		$offs 2 13
+		$step 15
+	}
+
+	$char
+	{
+		$code 30 // 
+		$tex_id 0
+		$coord 109 15
+		$size 11 13
+		$offs 2 13
+		$step 15
+	}
+
+	$char
+	{
+		$code 31 // 
+		$tex_id 0
+		$coord 121 15
+		$size 11 13
+		$offs 2 13
+		$step 15
+	}
+
+	$char
+	{
+		$code 32 //  
+		$tex_id 0
+		$coord 253 1
+		$size 0 0
+		$offs 0 0
+		$step 4
+	}
+
+	$char
+	{
+		$code 33 // !
+		$tex_id 0
+		$coord 133 15
+		$size 4 16
+		$offs 1 16
+		$step 6
+	}
+
+	$char
+	{
+		$code 34 // "
+		$tex_id 0
+		$coord 138 15
+		$size 7 5
+		$offs 1 16
+		$step 9
+	}
+
+	$char
+	{
+		$code 35 // #
+		$tex_id 0
+		$coord 146 15
+		$size 12 14
+		$offs 1 14
+		$step 14
+	}
+
+	$char
+	{
+		$code 36 // $
+		$tex_id 0
+		$coord 159 15
+		$size 9 19
+		$offs 1 17
+		$step 11
+	}
+
+	$char
+	{
+		$code 37 // %
+		$tex_id 0
+		$coord 169 15
+		$size 13 16
+		$offs 1 16
+		$step 15
+	}
+
+	$char
+	{
+		$code 38 // &
+		$tex_id 0
+		$coord 183 15
+		$size 12 13
+		$offs 1 13
+		$step 13
+	}
+
+	$char
+	{
+		$code 39 // '
+		$tex_id 0
+		$coord 253 2
+		$size 3 5
+		$offs 1 16
+		$step 4
+	}
+
+	$char
+	{
+		$code 40 // (
+		$tex_id 0
+		$coord 196 15
+		$size 5 16
+		$offs 1 16
+		$step 7
+	}
+
+	$char
+	{
+		$code 41 // )
+		$tex_id 0
+		$coord 202 15
+		$size 6 16
+		$offs 0 16
+		$step 7
+	}
+
+	$char
+	{
+		$code 42 // *
+		$tex_id 0
+		$coord 209 15
+		$size 6 5
+		$offs -1 16
+		$step 5
+	}
+
+	$char
+	{
+		$code 43 // +
+		$tex_id 0
+		$coord 216 15
+		$size 9 9
+		$offs 1 13
+		$step 11
+	}
+
+	$char
+	{
+		$code 44 // ,
+		$tex_id 0
+		$coord 253 8
+		$size 3 5
+		$offs 1 3
+		$step 4
+	}
+
+	$char
+	{
+		$code 45 // -
+		$tex_id 0
+		$coord 226 15
+		$size 5 3
+		$offs 1 8
+		$step 7
+	}
+
+	$char
+	{
+		$code 46 // .
+		$tex_id 0
+		$coord 253 14
+		$size 3 3
+		$offs 1 3
+		$step 4
+	}
+
+	$char
+	{
+		$code 47 // /
+		$tex_id 0
+		$coord 232 15
+		$size 8 16
+		$offs 0 16
+		$step 8
+	}
+
+	$char
+	{
+		$code 48 // 0
+		$tex_id 0
+		$coord 241 15
+		$size 9 16
+		$offs 1 16
+		$step 11
+	}
+
+	$char
+	{
+		$code 49 // 1
+		$tex_id 0
+		$coord 138 21
+		$size 7 16
+		$offs 0 16
+		$step 8
+	}
+
+	$char
+	{
+		$code 50 // 2
+		$tex_id 0
+		$coord 209 25
+		$size 9 16
+		$offs 1 16
+		$step 11
+	}
+
+	$char
+	{
+		$code 51 // 3
+		$tex_id 0
+		$coord 219 25
+		$size 9 16
+		$offs 1 16
+		$step 11
+	}
+
+	$char
+	{
+		$code 52 // 4
+		$tex_id 0
+		$coord 1 29
+		$size 10 16
+		$offs 1 16
+		$step 12
+	}
+
+	$char
+	{
+		$code 53 // 5
+		$tex_id 0
+		$coord 12 29
+		$size 9 16
+		$offs 1 16
+		$step 11
+	}
+
+	$char
+	{
+		$code 54 // 6
+		$tex_id 0
+		$coord 22 29
+		$size 10 16
+		$offs 1 16
+		$step 12
+	}
+
+	$char
+	{
+		$code 55 // 7
+		$tex_id 0
+		$coord 33 29
+		$size 8 16
+		$offs 1 16
+		$step 10
+	}
+
+	$char
+	{
+		$code 56 // 8
+		$tex_id 0
+		$coord 42 29
+		$size 9 16
+		$offs 1 16
+		$step 11
+	}
+
+	$char
+	{
+		$code 57 // 9
+		$tex_id 0
+		$coord 52 29
+		$size 10 16
+		$offs 1 16
+		$step 12
+	}
+
+	$char
+	{
+		$code 58 // :
+		$tex_id 0
+		$coord 251 18
+		$size 3 10
+		$offs 1 10
+		$step 4
+	}
+
+	$char
+	{
+		$code 59 // ;
+		$tex_id 0
+		$coord 63 29
+		$size 3 12
+		$offs 1 10
+		$step 4
+	}
+
+	$char
+	{
+		$code 60 // <
+		$tex_id 0
+		$coord 67 29
+		$size 10 10
+		$offs 1 13
+		$step 11
+	}
+
+	$char
+	{
+		$code 61 // =
+		$tex_id 0
+		$coord 78 29
+		$size 9 6
+		$offs 1 11
+		$step 11
+	}
+
+	$char
+	{
+		$code 62 // >
+		$tex_id 0
+		$coord 88 29
+		$size 10 10
+		$offs 1 13
+		$step 11
+	}
+
+	$char
+	{
+		$code 63 // ?
+		$tex_id 0
+		$coord 99 29
+		$size 9 16
+		$offs 1 16
+		$step 11
+	}
+
+	$char
+	{
+		$code 64 // @
+		$tex_id 0
+		$coord 109 29
+		$size 16 16
+		$offs 0 16
+		$step 16
+	}
+
+	$char
+	{
+		$code 65 // A
+		$tex_id 0
+		$coord 183 29
+		$size 12 16
+		$offs -1 16
+		$step 10
+	}
+
+	$char
+	{
+		$code 66 // B
+		$tex_id 0
+		$coord 146 30
+		$size 9 16
+		$offs 1 16
+		$step 11
+	}
+
+	$char
+	{
+		$code 67 // C
+		$tex_id 0
+		$coord 126 32
+		$size 10 16
+		$offs 1 16
+		$step 12
+	}
+
+	$char
+	{
+		$code 68 // D
+		$tex_id 0
+		$coord 169 32
+		$size 9 16
+		$offs 1 16
+		$step 11
+	}
+
+	$char
+	{
+		$code 69 // E
+		$tex_id 0
+		$coord 196 32
+		$size 7 16
+		$offs 1 16
+		$step 9
+	}
+
+	$char
+	{
+		$code 70 // F
+		$tex_id 0
+		$coord 229 32
+		$size 7 16
+		$offs 1 16
+		$step 9
+	}
+
+	$char
+	{
+		$code 71 // G
+		$tex_id 0
+		$coord 237 32
+		$size 9 16
+		$offs 1 16
+		$step 11
+	}
+
+	$char
+	{
+		$code 72 // H
+		$tex_id 0
+		$coord 247 32
+		$size 9 16
+		$offs 1 16
+		$step 11
+	}
+
+	$char
+	{
+		$code 73 // I
+		$tex_id 0
+		$coord 204 32
+		$size 4 16
+		$offs 1 16
+		$step 6
+	}
+
+	$char
+	{
+		$code 74 // J
+		$tex_id 0
+		$coord 156 35
+		$size 6 16
+		$offs 0 16
+		$step 7
+	}
+
+	$char
+	{
+		$code 75 // K
+		$tex_id 0
+		$coord 67 40
+		$size 10 16
+		$offs 1 16
+		$step 11
+	}
+
+	$char
+	{
+		$code 76 // L
+		$tex_id 0
+		$coord 78 36
+		$size 7 16
+		$offs 1 16
+		$step 8
+	}
+
+	$char
+	{
+		$code 77 // M
+		$tex_id 0
+		$coord 209 42
+		$size 13 16
+		$offs 1 16
+		$step 15
+	}
+
+	$char
+	{
+		$code 78 // N
+		$tex_id 0
+		$coord 86 40
+		$size 9 16
+		$offs 1 16
+		$step 11
+	}
+
+	$char
+	{
+		$code 79 // O
+		$tex_id 0
+		$coord 1 46
+		$size 9 16
+		$offs 1 16
+		$step 11
+	}
+
+	$char
+	{
+		$code 80 // P
+		$tex_id 0
+		$coord 11 46
+		$size 9 16
+		$offs 1 16
+		$step 11
+	}
+
+	$char
+	{
+		$code 81 // Q
+		$tex_id 0
+		$coord 21 46
+		$size 9 18
+		$offs 1 16
+		$step 11
+	}
+
+	$char
+	{
+		$code 82 // R
+		$tex_id 0
+		$coord 31 46
+		$size 9 16
+		$offs 1 16
+		$step 11
+	}
+
+	$char
+	{
+		$code 83 // S
+		$tex_id 0
+		$coord 41 46
+		$size 9 16
+		$offs 1 16
+		$step 11
+	}
+
+	$char
+	{
+		$code 84 // T
+		$tex_id 0
+		$coord 51 46
+		$size 9 16
+		$offs 1 16
+		$step 11
+	}
+
+	$char
+	{
+		$code 85 // U
+		$tex_id 0
+		$coord 96 46
+		$size 9 16
+		$offs 1 16
+		$step 11
+	}
+
+	$char
+	{
+		$code 86 // V
+		$tex_id 0
+		$coord 106 46
+		$size 12 16
+		$offs -1 16
+		$step 10
+	}
+
+	$char
+	{
+		$code 87 // W
+		$tex_id 0
+		$coord 137 47
+		$size 17 16
+		$offs 0 16
+		$step 16
+	}
+
+	$char
+	{
+		$code 88 // X
+		$tex_id 0
+		$coord 179 46
+		$size 10 16
+		$offs 0 16
+		$step 10
+	}
+
+	$char
+	{
+		$code 89 // Y
+		$tex_id 0
+		$coord 119 49
+		$size 10 16
+		$offs 0 16
+		$step 10
+	}
+
+	$char
+	{
+		$code 90 // Z
+		$tex_id 0
+		$coord 163 49
+		$size 7 16
+		$offs 1 16
+		$step 9
+	}
+
+	$char
+	{
+		$code 91 // [
+		$tex_id 0
+		$coord 223 42
+		$size 5 16
+		$offs 1 16
+		$step 6
+	}
+
+	$char
+	{
+		$code 92 // \
+		$tex_id 0
+		$coord 190 49
+		$size 8 16
+		$offs 0 16
+		$step 8
+	}
+
+	$char
+	{
+		$code 93 // ]
+		$tex_id 0
+		$coord 61 46
+		$size 5 16
+		$offs 0 16
+		$step 6
+	}
+
+	$char
+	{
+		$code 94 // ^
+		$tex_id 0
+		$coord 229 49
+		$size 10 8
+		$offs 0 16
+		$step 10
+	}
+
+	$char
+	{
+		$code 95 // _
+		$tex_id 0
+		$coord 240 49
+		$size 13 1
+		$offs -1 -1
+		$step 11
+	}
+
+	$char
+	{
+		$code 96 // `
+		$tex_id 0
+		$coord 209 21
+		$size 6 3
+		$offs 0 17
+		$step 7
+	}
+
+	$char
+	{
+		$code 97 // a
+		$tex_id 0
+		$coord 199 49
+		$size 9 13
+		$offs 1 13
+		$step 11
+	}
+
+	$char
+	{
+		$code 98 // b
+		$tex_id 0
+		$coord 240 51
+		$size 9 16
+		$offs 1 16
+		$step 11
+	}
+
+	$char
+	{
+		$code 99 // c
+		$tex_id 0
+		$coord 67 57
+		$size 9 13
+		$offs 1 13
+		$step 10
+	}
+
+	$char
+	{
+		$code 100 // d
+		$tex_id 0
+		$coord 77 57
+		$size 9 16
+		$offs 1 16
+		$step 11
+	}
+
+	$char
+	{
+		$code 101 // e
+		$tex_id 0
+		$coord 229 58
+		$size 9 13
+		$offs 1 13
+		$step 11
+	}
+
+	$char
+	{
+		$code 102 // f
+		$tex_id 0
+		$coord 130 49
+		$size 6 16
+		$offs 1 16
+		$step 8
+	}
+
+	$char
+	{
+		$code 103 // g
+		$tex_id 0
+		$coord 209 59
+		$size 9 15
+		$offs 1 13
+		$step 11
+	}
+
+	$char
+	{
+		$code 104 // h
+		$tex_id 0
+		$coord 219 59
+		$size 9 16
+		$offs 1 16
+		$step 11
+	}
+
+	$char
+	{
+		$code 105 // i
+		$tex_id 0
+		$coord 171 49
+		$size 4 16
+		$offs 1 16
+		$step 6
+	}
+
+	$char
+	{
+		$code 106 // j
+		$tex_id 0
+		$coord 250 51
+		$size 5 18
+		$offs 0 16
+		$step 6
+	}
+
+	$char
+	{
+		$code 107 // k
+		$tex_id 0
+		$coord 1 63
+		$size 9 16
+		$offs 1 16
+		$step 10
+	}
+
+	$char
+	{
+		$code 108 // l
+		$tex_id 0
+		$coord 155 52
+		$size 4 16
+		$offs 1 16
+		$step 6
+	}
+
+	$char
+	{
+		$code 109 // m
+		$tex_id 0
+		$coord 31 63
+		$size 15 13
+		$offs 1 13
+		$step 16
+	}
+
+	$char
+	{
+		$code 110 // n
+		$tex_id 0
+		$coord 11 63
+		$size 9 13
+		$offs 1 13
+		$step 11
+	}
+
+	$char
+	{
+		$code 111 // o
+		$tex_id 0
+		$coord 47 63
+		$size 9 13
+		$offs 1 13
+		$step 11
+	}
+
+	$char
+	{
+		$code 112 // p
+		$tex_id 0
+		$coord 57 63
+		$size 9 15
+		$offs 1 13
+		$step 11
+	}
+
+	$char
+	{
+		$code 113 // q
+		$tex_id 0
+		$coord 87 63
+		$size 9 15
+		$offs 1 13
+		$step 11
+	}
+
+	$char
+	{
+		$code 114 // r
+		$tex_id 0
+		$coord 97 63
+		$size 7 13
+		$offs 1 13
+		$step 8
+	}
+
+	$char
+	{
+		$code 115 // s
+		$tex_id 0
+		$coord 105 63
+		$size 9 13
+		$offs 1 13
+		$step 10
+	}
+
+	$char
+	{
+		$code 116 // t
+		$tex_id 0
+		$coord 176 63
+		$size 6 15
+		$offs 1 15
+		$step 8
+	}
+
+	$char
+	{
+		$code 117 // u
+		$tex_id 0
+		$coord 199 63
+		$size 9 13
+		$offs 1 13
+		$step 11
+	}
+
+	$char
+	{
+		$code 118 // v
+		$tex_id 0
+		$coord 137 64
+		$size 10 13
+		$offs -1 13
+		$step 9
+	}
+
+	$char
+	{
+		$code 119 // w
+		$tex_id 0
+		$coord 115 66
+		$size 15 13
+		$offs -1 13
+		$step 13
+	}
+
+	$char
+	{
+		$code 120 // x
+		$tex_id 0
+		$coord 21 65
+		$size 9 13
+		$offs 0 13
+		$step 9
+	}
+
+	$char
+	{
+		$code 121 // y
+		$tex_id 0
+		$coord 160 66
+		$size 10 15
+		$offs 0 13
+		$step 9
+	}
+
+	$char
+	{
+		$code 122 // z
+		$tex_id 0
+		$coord 183 66
+		$size 7 13
+		$offs 1 13
+		$step 9
+	}
+
+	$char
+	{
+		$code 123 // {
+		$tex_id 0
+		$coord 191 66
+		$size 7 19
+		$offs 1 16
+		$step 8
+	}
+
+	$char
+	{
+		$code 124 // |
+		$tex_id 0
+		$coord 148 64
+		$size 3 18
+		$offs 2 16
+		$step 6
+	}
+
+	$char
+	{
+		$code 125 // }
+		$tex_id 0
+		$coord 239 68
+		$size 7 19
+		$offs 1 16
+		$step 8
+	}
+
+	$char
+	{
+		$code 126 // ~
+		$tex_id 0
+		$coord 247 70
+		$size 9 5
+		$offs 1 10
+		$step 11
+	}
+
+	$char
+	{
+		$code 127 // 
+		$tex_id 0
+		$coord 67 74
+		$size 11 13
+		$offs 2 13
+		$step 15
+	}
+
+}
+

@@ -5,6 +5,7 @@
 #include "FontGenApp.h"
 #include "FontGenAppDlg.h"
 #include "Core/Config.h"
+#include <vector>
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
@@ -60,6 +61,8 @@ void CFontGenAppDlg::DoDataExchange(CDataExchange* pDX)
 	DDX_Control(pDX, IDC_TEXSIZE_EDIT, m_texSizeEdit);
 	DDX_Control(pDX, IDC_WIDTH_EDIT, m_charWidthEdit);
 	DDX_Control(pDX, IDC_HEIGHT_EDIT, m_charHeightEdit);
+	DDX_Control(pDX, IDC_COUNT_EDIT, m_countEdit);
+	DDX_Control(pDX, IDC_CHARS_EDIT, m_charsEdit);
 }
 
 //---------------------------------------------------------
@@ -78,6 +81,9 @@ BEGIN_MESSAGE_MAP(CFontGenAppDlg, CDialog)
 	ON_BN_CLICKED(IDC_FONT_BUTTON, &CFontGenAppDlg::OnBnClickedFontButton)
 	ON_BN_CLICKED(IDC_GEN_BUTTON, &CFontGenAppDlg::OnBnClickedGenButton)
 	ON_BN_CLICKED(IDC_SAVE_BUTTON, &CFontGenAppDlg::OnBnClickedSaveButton)
+	ON_BN_CLICKED(IDC_ALL_RADIO, &CFontGenAppDlg::OnBnClickedAllRadio)
+	ON_BN_CLICKED(IDC_MAX_RADIO, &CFontGenAppDlg::OnBnClickedMaxRadio)
+	ON_BN_CLICKED(IDC_SELECTED_RADIO, &CFontGenAppDlg::OnBnClickedSelectedRadio)
 END_MESSAGE_MAP()
 
 
@@ -122,6 +128,10 @@ BOOL CFontGenAppDlg::OnInitDialog()
 	SetInt( m_texSizeEdit, int(fabsf(texSize->Value())) );
 	SetInt( m_charWidthEdit, int(fabsf(fontWidth->Value())) );
 	SetInt( m_charHeightEdit, int(fabsf(fontHeight->Value())) );
+
+	CheckDlgButton( IDC_ALL_RADIO, BST_CHECKED );
+	m_countEdit.EnableWindow( FALSE );
+	m_charsEdit.EnableWindow( FALSE );
 
 	return TRUE;  // return TRUE  unless you set the focus to a control
 }
@@ -236,8 +246,32 @@ void CFontGenAppDlg::OnBnClickedGenButton()
 		return;
 	}
 
+	std::vector<char>	chars;
+	if ( IsDlgButtonChecked( IDC_ALL_RADIO ) == BST_CHECKED )
+	{
+		for ( int i = 0; i < 256; ++i )
+			chars.push_back( (char)i );
+	}
+	else if ( IsDlgButtonChecked( IDC_MAX_RADIO ) )
+	{
+		CString	str;
+		m_countEdit.GetWindowText( str );
+		int max = atoi( str );
+		if ( max < 0 || max > 256 ) max = 256;
+		
+		for ( int i = 0; i < max; ++i )
+			chars.push_back( (char)i );
+	}
+	else if ( IsDlgButtonChecked( IDC_SELECTED_RADIO ) )
+	{
+		CString	str;
+		m_charsEdit.GetWindowText( str );
+		for ( int i = 0; i < str.GetLength(); ++i )
+			chars.push_back( str[i] );
+	}
+
 	CWnd	*but = GetDlgItem( IDC_SAVE_BUTTON );
-	if ( !m_genTool.Generate( m_ttfFileName, texSize, fontWidth, fontHeight, this ) )
+	if ( !m_genTool.Generate( m_ttfFileName, texSize, fontWidth, fontHeight, &chars[0], (int)chars.size(), this ) )
 	{
 		if ( but ) but->EnableWindow( FALSE );
 	}
@@ -257,4 +291,31 @@ void CFontGenAppDlg::OnBnClickedSaveButton()
 	{
 		m_genTool.Save( dlg.GetPathName() );
 	}
+}
+
+//---------------------------------------------------------
+// CFontGenAppDlg::OnBnClickedAllRadio:
+//---------------------------------------------------------
+void CFontGenAppDlg::OnBnClickedAllRadio()
+{
+	m_countEdit.EnableWindow( FALSE );
+	m_charsEdit.EnableWindow( FALSE );
+}
+
+//---------------------------------------------------------
+// CFontGenAppDlg::OnBnClickedMaxRadio:
+//---------------------------------------------------------
+void CFontGenAppDlg::OnBnClickedMaxRadio()
+{
+	m_charsEdit.EnableWindow( FALSE );
+	m_countEdit.EnableWindow( TRUE );
+}
+
+//---------------------------------------------------------
+// CFontGenAppDlg::OnBnClickedSelectedRadio:
+//---------------------------------------------------------
+void CFontGenAppDlg::OnBnClickedSelectedRadio()
+{
+	m_charsEdit.EnableWindow( TRUE );
+	m_countEdit.EnableWindow( FALSE );
 }

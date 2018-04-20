@@ -1,0 +1,174 @@
+//Generate by FontGen
+//Copyright (c) 2005-2008, Gaikov Roman. All rights reserved.
+
+$version 1.5
+
+$textures
+{
+	$tex "combo.png"
+}
+
+$chars_data
+{
+	$char
+	{
+		$code 32 //  
+		$tex_id 0
+		$coord 97 1
+		$size 0 0
+		$offs 0 0
+		$step 5
+	}
+
+	$char
+	{
+		$code 48 // 0
+		$tex_id 0
+		$coord 62 28
+		$size 14 26
+		$offs 1 25
+		$step 16
+	}
+
+	$char
+	{
+		$code 49 // 1
+		$tex_id 0
+		$coord 98 1
+		$size 10 24
+		$offs 1 24
+		$step 12
+	}
+
+	$char
+	{
+		$code 50 // 2
+		$tex_id 0
+		$coord 109 1
+		$size 14 25
+		$offs 1 25
+		$step 16
+	}
+
+	$char
+	{
+		$code 51 // 3
+		$tex_id 0
+		$coord 31 26
+		$size 14 26
+		$offs 1 25
+		$step 16
+	}
+
+	$char
+	{
+		$code 52 // 4
+		$tex_id 0
+		$coord 46 26
+		$size 15 24
+		$offs 1 24
+		$step 17
+	}
+
+	$char
+	{
+		$code 53 // 5
+		$tex_id 0
+		$coord 81 26
+		$size 14 25
+		$offs 1 24
+		$step 16
+	}
+
+	$char
+	{
+		$code 54 // 6
+		$tex_id 0
+		$coord 96 27
+		$size 14 26
+		$offs 1 25
+		$step 16
+	}
+
+	$char
+	{
+		$code 55 // 7
+		$tex_id 0
+		$coord 111 27
+		$size 11 24
+		$offs 1 24
+		$step 13
+	}
+
+	$char
+	{
+		$code 56 // 8
+		$tex_id 0
+		$coord 1 28
+		$size 14 26
+		$offs 1 25
+		$step 16
+	}
+
+	$char
+	{
+		$code 57 // 9
+		$tex_id 0
+		$coord 16 28
+		$size 14 26
+		$offs 1 25
+		$step 16
+	}
+
+	$char
+	{
+		$code 66 // B
+		$tex_id 0
+		$coord 51 1
+		$size 14 24
+		$offs 1 24
+		$step 16
+	}
+
+	$char
+	{
+		$code 67 // C
+		$tex_id 0
+		$coord 1 1
+		$size 14 26
+		$offs 1 25
+		$step 16
+	}
+
+	$char
+	{
+		$code 77 // M
+		$tex_id 0
+		$coord 31 1
+		$size 19 24
+		$offs 1 24
+		$step 21
+	}
+
+	$char
+	{
+		$code 79 // O
+		$tex_id 0
+		$coord 66 1
+		$size 14 26
+		$offs 1 25
+		$step 16
+	}
+
+	$char
+	{
+		$code 88 // X
+		$tex_id 0
+		$coord 81 1
+		$size 15 24
+		$offs 0 24
+		$step 14
+	}
+
+}
+

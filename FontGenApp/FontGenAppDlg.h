@@ -44,4 +44,9 @@ public:
 	CEdit m_charHeightEdit;
 	afx_msg void OnBnClickedGenButton();
 	afx_msg void OnBnClickedSaveButton();
+	afx_msg void OnBnClickedAllRadio();
+	CEdit m_countEdit;
+	CEdit m_charsEdit;
+	afx_msg void OnBnClickedMaxRadio();
+	afx_msg void OnBnClickedSelectedRadio();
 };

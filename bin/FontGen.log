@@ -1,19 +1,13 @@
-open log: Fri Mar 28 13:16:45 2008
+open log: Tue Aug 12 23:15:29 2008
 *** Core Init ***
 OS Installed: Windows NT ver 5.1
-CPU Speed: 2418.86
+CPU Speed: 2933.31
 ...enum packs
 WARNING: packs not found!
 
 ... IL init
-... loading font 'D:\NapalmSoft\FontGen\bin\fonts\AGBENGR.TTF'
-WARNING: texture too small!
-... loading font 'D:\NapalmSoft\FontGen\bin\fonts\AGBENGR.TTF'
-... writing image 'd:/napalmsoft/fontgen/bin/myfonts/font_panel.png'
-... loading font 'D:\NapalmSoft\FontGen\bin\fonts\AGBENGR.TTF'
-... writing image 'd:/napalmsoft/fontgen/bin/myfonts/font_panel.png'
 ... IL shutdown
 ...writing config 'FontGen.cfg'
 *** Core Shutdown ***
 
-close log: Fri Mar 28 13:34:25 2008
+close log: Tue Aug 12 23:15:59 2008
