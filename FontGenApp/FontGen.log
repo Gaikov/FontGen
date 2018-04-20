@@ -1,0 +1,10 @@
+open log: Thu Feb 28 12:19:38 2008
+*** Core Init ***
+OS Installed: Windows NT ver 5.1
+CPU Speed: 2418.94
+...enum packs
+WARNING: packs not found!
+
+*** Core Shutdown ***
+
+close log: Thu Feb 28 12:19:42 2008

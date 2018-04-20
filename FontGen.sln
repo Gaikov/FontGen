@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "00_nsLib", "nsLib\00_nsLib.vcproj", "{00DF93A8-5275-406D-8127-3ABC28A39239}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01_Core", "Core\01_Core.vcproj", "{565F32FF-D855-4D14-99D8-3EA94FC1A7D8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FontGenApp", "FontGenApp\FontGenApp.vcproj", "{53F2629D-0CCC-4B36-8C83-41474C1A60A9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{00DF93A8-5275-406D-8127-3ABC28A39239} = {00DF93A8-5275-406D-8127-3ABC28A39239}
+		{565F32FF-D855-4D14-99D8-3EA94FC1A7D8} = {565F32FF-D855-4D14-99D8-3EA94FC1A7D8}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 4
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = nsLib\\00_nsLib.vcproj
+		SccLocalPath1 = nsLib
+		SccProjectUniqueName2 = Core\\01_Core.vcproj
+		SccLocalPath2 = Core
+		SccProjectUniqueName3 = FontGenApp\\FontGenApp.vcproj
+		SccLocalPath3 = FontGenApp
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00DF93A8-5275-406D-8127-3ABC28A39239}.Debug|Win32.ActiveCfg = Debug|Win32
+		{00DF93A8-5275-406D-8127-3ABC28A39239}.Debug|Win32.Build.0 = Debug|Win32
+		{00DF93A8-5275-406D-8127-3ABC28A39239}.Release|Win32.ActiveCfg = Release|Win32
+		{00DF93A8-5275-406D-8127-3ABC28A39239}.Release|Win32.Build.0 = Release|Win32
+		{565F32FF-D855-4D14-99D8-3EA94FC1A7D8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{565F32FF-D855-4D14-99D8-3EA94FC1A7D8}.Debug|Win32.Build.0 = Debug|Win32
+		{565F32FF-D855-4D14-99D8-3EA94FC1A7D8}.Release|Win32.ActiveCfg = Release|Win32
+		{565F32FF-D855-4D14-99D8-3EA94FC1A7D8}.Release|Win32.Build.0 = Release|Win32
+		{53F2629D-0CCC-4B36-8C83-41474C1A60A9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{53F2629D-0CCC-4B36-8C83-41474C1A60A9}.Debug|Win32.Build.0 = Debug|Win32
+		{53F2629D-0CCC-4B36-8C83-41474C1A60A9}.Release|Win32.ActiveCfg = Release|Win32
+		{53F2629D-0CCC-4B36-8C83-41474C1A60A9}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

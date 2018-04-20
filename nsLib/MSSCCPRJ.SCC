@@ -1,0 +1,5 @@
+SCC = This is a source code control file
+
+[00_nsLib.vcproj]
+SCC_Aux_Path = "P4SCC#localhost:1666##roman##FontGen"
+SCC_Project_Name = Perforce Project
